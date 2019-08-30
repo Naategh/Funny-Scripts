@@ -28,6 +28,10 @@ This project includes some fun bash scripts that may encourage you to learn bash
 I'll try to make this project more useful so
 feel free to share your ideas or report bugs, I'll look at that soon.
 
+## License
+This project is licensed under the GNU GPLv3 License - see the [LICENSE](LICENSE) file for details.
+Also, some files created by other programmers that you can find original authors as a comment in the file.
+
 ## Contact
 - Email: manamtabeshekan@gmail.com
 - Telegram: @Naategh
