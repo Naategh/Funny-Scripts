@@ -1,4 +1,4 @@
-# Funny-Scripts
+# Funny Scripts
 This project includes some fun bash scripts that may encourage you to learn bash scripting or  show you can what to do with that.
 
 ## Installation
