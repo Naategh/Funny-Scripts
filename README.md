@@ -25,7 +25,8 @@ This project includes some fun bash scripts that may encourage you to learn bash
 | `web-server.sh`  | `Simple web server`  |
 
 ## Roadmap
-Feel free to share your ideas or report bugs, I'll look at that soon.
+I'll try to make this project more useful so
+feel free to share your ideas or report bugs, I'll look at that soon.
 
 ## Contact
 - Email: manamtabeshekan@gmail.com
