@@ -21,7 +21,7 @@ This project includes some fun bash scripts that may encourage you to learn bash
 | `mailer.sh`  | `Send an email`  |
 | `movies.sh`  | `Quick search that grabs relevant information about a movie`  |
 | `top-ips.sh`  | `List All Top Hitting IP Address to your webserver`  |
-| `turn-server-uploads.sh`  | `to turn on or off Apache / Nginx / Lighttpd web server upload`  |
+| `turn-server-uploads.sh`  | `Turn on or off Apache / Nginx / Lighttpd web server upload`  |
 | `web-server.sh`  | `Simple web server`  |
 
 ## Roadmap
