@@ -1,11 +1,6 @@
 # Funny Scripts
 This project includes some fun bash scripts that may encourage you to learn bash scripting or  show you can what to do with that.
 
-## Installation
-- git clone https://github.com/Naategh/Funny-Scripts.git
-- cd Funny-Scripts
-- ./install.sh
-
 ## Requirements
 - A linux distribution (Tested on Ubuntu 18.04)
 
