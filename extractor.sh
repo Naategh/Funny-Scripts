@@ -5,7 +5,7 @@ if [ $# -eq 0 ]; then
 	exit 0
 fi
 
-FILE=$@
+file=$@
 
 extract () {
 	# We can simply use from dtrx tool to extract any archived file with any extension :)
@@ -18,4 +18,4 @@ extract () {
 	fi
 }
 
-extract $FILE
+extract $file
