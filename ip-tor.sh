@@ -14,7 +14,7 @@ ___) (___| )             | |   | (___) || ) \ \__
 """
 
 echo -e "\tip-tor\033[91m :: \033[0mInstall tor and show your ip"
-echo -e "\tCode\033[91m :: \033[0mNaategh"
+echo -e "\tAuthor\033[91m :: \033[0mNaategh"
 echo -e "\tEmail\033[91m :: \033[0mmanamtabeshekan@gmail.com"
 echo ""
 
@@ -30,6 +30,10 @@ function main() {
 
 case $choise in
 	1 )
+		if [[ $EUID -ne 0 ]]; then
+			echo -e "\n\033[91mThis script must be run as root, Exiting...\033[0m"
+			exit 1
+		fi
 		apt update && apt install tor
 		echo -e  "\n\033[93mTor service installed successfully...\033[0m"
 		echo ""
@@ -43,6 +47,10 @@ case $choise in
 		main;;
 
 	2 )
+		if [[ $EUID -ne 0 ]]; then
+			echo -e "\n\033[91mThis script must be run as root, Exiting...\033[0m"
+			exit 1
+		fi
 		sudo add-apt-repository ppa:webupd8team/tor-browser
 		apt update && apt install tor && apt install tor-browser
 		echo "\n\033[93mTor browser installed successfully...\033[0m"
